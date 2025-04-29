@@ -1,2 +1,2 @@
 # My Tools | Script 
-[ingong.sh](/PingPong(sh)) (for quick network scan)
+[pingong.sh](/PingPong(sh)) (for quick network scan)
