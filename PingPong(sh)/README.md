@@ -3,4 +3,4 @@
 ### designed for efficient network testing.
 ### It allows you to scan a range of IPs with minimal overhead
 #### download >
-### run > commnd: pingpong.sh {ip (X.X.X)} 
+### run > commnd: pingpong.sh {ip (X.X.X)} (! without the last number !)
